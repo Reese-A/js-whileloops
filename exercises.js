@@ -68,7 +68,11 @@ while(i < tvShows.length){
 
 */
 
-
+var i = 0;
+while(i < 9){
+	i++;
+	console.log(i + 'x' + 3 + '=' + (i * 3));
+}
 
 
 
@@ -99,6 +103,23 @@ devleague homie!
 ...
 ...*/
 
+var i = 0;
+while(i < 100){
+	i++;
+	if(i%3 === 0 && i%5 === 0){
+		console.log('devleague homie!');
+	}else{
+		if(i%3 === 0){
+			console.log('dev');
+		}else{
+			if(i%5 === 0){
+				console.log('league');
+			}else{
+				console.log(i);
+			}
+		}
+	}
+}
 
 /*
  * #6
